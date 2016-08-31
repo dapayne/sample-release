@@ -61,6 +61,11 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+			  <groupId>org.apache.maven.plugins</groupId>
+			  <artifactId>maven-release-plugin</artifactId>
+			  <version>2.5.3</version>
+			</plugin>  			
 		</plugins>
 	</build>
 
@@ -158,5 +163,20 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
-
+    <distributionManagement>
+    	<repository>
+    		<id>MACDeploy</id>
+    		<url>http://localhost:9091/nexus/content/repositories/releases/</url>
+    	</repository>
+		<snapshotRepository>
+			<id>MACDeploy</id>
+			<url>http://http://localhost:9091/nexus/content/repositories/mspairport-mule/</url>
+		</snapshotRepository>
+	</distributionManagement> 
+	<scm>
+	    <url>https://github.com/dapayne/sample-release.git</url>
+    	<connection>scm:git:git://github.com/dapayne/sample-release.git</connection>
+    	<developerConnection>scm:git:git@github.com:dapayne/sample-release.git</developerConnection>
+    	<tag>HEAD</tag>
+	</scm>
 </project>
