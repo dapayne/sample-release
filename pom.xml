@@ -170,7 +170,7 @@
     	</repository>
 		<snapshotRepository>
 			<id>MACDeploy</id>
-			<url>http://http://localhost:9091/nexus/content/repositories/mspairport-mule/</url>
+			<url>http://localhost:9091/nexus/content/repositories/mspairport-mule/</url>
 		</snapshotRepository>
 	</distributionManagement> 
 	<scm>
