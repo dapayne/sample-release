@@ -172,7 +172,8 @@
 			<id>MACDeploy</id>
 			<url>http://localhost:9091/nexus/content/repositories/mspairport-mule/</url>
 		</snapshotRepository>
-	</distributionManagement> 
+	</distributionManagement>
+	 
 	<scm>
 	    <url>https://github.com/dapayne/sample-release.git</url>
     	<connection>scm:git:https://github.com/dapayne/sample-release.git</connection>
