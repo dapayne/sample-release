@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mspairport.mule</groupId>
 	<artifactId>sample-release</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <packaging>mule</packaging>
 	<name>Mule sample-release Application</name>
 
@@ -176,6 +176,6 @@
 	    <url>https://github.com/dapayne/sample-release.git</url>
     	<connection>scm:git:https://github.com/dapayne/sample-release.git</connection>
     	<developerConnection>scm:git:https://github.com/dapayne/sample-release.git</developerConnection>
-    	<tag>HEAD</tag>
+    	<tag>sample-release-1.0.1</tag>
 	</scm>
 </project>
