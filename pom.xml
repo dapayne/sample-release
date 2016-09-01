@@ -175,8 +175,8 @@
 	</distributionManagement> 
 	<scm>
 	    <url>https://github.com/dapayne/sample-release.git</url>
-    	<connection>scm:git:git://github.com/dapayne/sample-release.git</connection>
-    	<developerConnection>scm:git:git@github.com:dapayne/sample-release.git</developerConnection>
+    	<connection>scm:git:https://github.com/dapayne/sample-release.git</connection>
+    	<developerConnection>scm:git:https://github.com:dapayne/sample-release.git</developerConnection>
     	<tag>HEAD</tag>
 	</scm>
 </project>
